@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Merriweather', serif;
+
+}
+.btn{
+    border-radius: 10px;
+}
+.logo{
+    border-radius: 10px;
+}
+.container-fluid{
+    padding-top: 0px;
+}
+.nav-link{
+    font-weight: bold;
+    margin:0.4rem;
+    border-radius: 8px;
+}
+
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 8px;
+
+  }
+#Home{
+    max-width: 100%;
+    height: 90vh;
+    background-image: url(./images/bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.content{
+    margin-left:80px;
+    padding-top: 200px;
+}
+.content h1{
+    color:white;
+    font-size: 3rem;
+
+}
+.content p{
+    color:white;
+
+}
+.btn-shop{
+    color:black;
+    font-weight: bolder;
+    width: 150px;
+}
+.btn-shop:hover{
+    background: #b2744c;
+    color:white;
+    border-color:#b2744c ;
+}
+#id-us{
+    color:#b2744c;
+}
+.about{
+    padding-top: 10vh;
+    padding-left: 8vw;
+    padding-right:8vw;
+}
+
+.about h2{
+    font-weight: bolder;
+}
+.about .about-img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.btn-learn{
+   color:#b2744c;
+   border: 2px solid #b2744c;
+   font-size: medium;
+   font-weight: bolder;
+   width:190px;
+   border-radius: 5px;
+}
+.btn-learn:hover{
+    background: #b2744c;
+    color:white;
+    border-color:white;
+}
+.categories{
+    padding-top: 15vh;
+    padding-left: 8vw;
+    padding-right:8vw;
+}
+.categories h2{
+    font-weight: bolder;
+}
+#id-categories{
+    color:#b2744c;
+
+}
+.categories .category .card{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    border:none;
+
+}
+.categories .category .card .card-img {
+    margin-bottom: 2vh;
+    transition: transform 0.5s ease; /* Yumuşak geçiş için süre ve hız fonksiyonu */
+}
+.categories .category .card .card-img:hover
+{
+transform: translateY(-8px); /* Kartı y ekseninde 10px yukarı kaydır */
+}
+
+
+
+.menu{
+    padding:10vh 8vw 10vh 8vw;
+
+}
+.title{
+    text-align: center;
+    color:#b2744c;
+    font-weight: bolder;
+    border-bottom: 2px solid #b2744c;
+
+}
+.menu-card{
+    background-color: white;
+    width: auto;
+    height: auto;
+
+}
+
+.star{
+    width:10%;
+    height: 10%;
+}
+#coffe-txt{
+    color:#b2744c;
+    text-align: center;
+}
+.price{
+    color:#b2744c;
+}
+#shop-png{
+    width:10%;
+    height: 10%;
+}
+.products{
+    padding:10vh 8vw 10vh 8vw;
+
+}
+.product-title{
+    text-align: center;
+    color:#b2744c;
+    font-weight: bolder;
+    border-bottom: 2px solid #b2744c;
+}
+#products-txt{
+    color:#b2744c;
+    text-align: center;
+}
+.categories{
+    padding:10vh 8vw 10vh 8vw;
+
+}
+.gallery-img{
+    border-radius: 5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact{
+    padding:10vh 8vw 10vh 8vw;
+}
+.contact-text{
+    font-weight: bold;
+}
+.contact p{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+#contact-us{
+    color:#b2744c;
+}
+.contact .btn{
+    background-color: #b2744c;
+    font-weight: 700;
+    border-radius: 0%;
+}
+#contact-name{
+    width: 30vw;
+}
+#contact-email{
+    width: 30vw;
+}
+#contact-telefon{
+    width: 30vw;
+}
+.contact-info {
+    width: 40%; /* Genişliği iki sütunu kapsayacak şekilde ayarladık */
+    height: 90%;
+    left: 75%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact .contact-info{
+        visibility: hidden;
+        width:100%;
+        height: 100%;
+        background: #b2744c;
+        position:relative;
+        max-width: auto;
+        left:45%;
+    }
+    .right{
+        background-color: #b2744c;
+        height: 60vh;
+    }
+    .info{
+        visibility: visible;
+        padding:0;
+    
+    }
+    
+  }
+  .blog{
+    padding:10vh 8vw 10vh 8vw;
+
+  }
+  .blog h2{
+    font-weight: bolder;
+  }
+  .blog .btn{
+    background-color: #b2744c;
+  }
+  .blog .card-title{
+    font-weight:500;
+  }
+  .blog .card-title-2{
+    color:#b2744c;
+  }
+  .footer{
+    height: 30vh;
+  }
+
+  .footer .footer-items{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .footer .footer-items #footer-logo{
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+  }
+  .footer .footer-items .row{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .footer .footer-items .row .social-media i{
+    background-color: black;
+  }
+  .footer .footer-items .row p{
+    font-weight: 700;
+    color:white
+  }
+  .footer .footer-items .row p :hover{
+   color:black;
+  } 
+  
+
